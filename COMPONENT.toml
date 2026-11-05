@@ -1,0 +1,16 @@
+[component]
+name = "SigmaOS-calculator"
+tier = 3
+stability = "scaffold"
+language = "rust"
+description = "Precision desktop calculator supporting basic, scientific, and programmer modes"
+upstream = ["https://github.com/omacom/omacalc"]
+
+[contract]
+provides = ["desktop-calculator", "precision-math-engine", "programmer-hex-mode"]
+depends_on = []
+
+[maturity]
+status = "Scaffold"
+test_evidence = "Compiles and passes AAA unit tests"
+next_milestone = "Hardware and runtime integration"
