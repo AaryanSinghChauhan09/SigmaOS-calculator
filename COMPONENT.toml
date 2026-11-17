@@ -1,7 +1,7 @@
 [component]
 name = "SigmaOS-calculator"
 tier = 3
-stability = "scaffold"
+stability = "beta"
 language = "rust"
 description = "Scientific calculator engine"
 upstream = ["https://github.com/omacom/omacalc"]
@@ -11,6 +11,6 @@ provides = ["desktop-calculator", "precision-math-engine", "programmer-hex-mode"
 depends_on = ["SigmaOS-system"]
 
 [maturity]
-status = "Scaffold"
+status = "Implemented"
 test_evidence = "Compiles and passes AAA unit tests"
 next_milestone = "Hardware and runtime integration"
