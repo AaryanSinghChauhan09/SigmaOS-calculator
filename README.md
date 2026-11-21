@@ -1,9 +1,9 @@
 # SigmaOS-calculator
 
-Scientific calculator engine
+Calculator for SigmaOS inspired by SigmaOS Linux
 
 - **Category:** Utilities
-- **Engine:** calc
+- **Engine:**  calculator
 - **Language:** Rust
 
 ## Build & Test

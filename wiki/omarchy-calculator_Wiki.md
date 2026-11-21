@@ -1,7 +1,7 @@
 # SigmaOS-SigmaOS-calculator Component Wiki
 
 ## Overview
-SigmaOS-SigmaOS-calculator provides Scientific calculator engine for the SigmaOS operating system. It demonstrates the subsystem and integration within the SigmaOS ecosystem, following the principles of clear abstraction and deterministic initialization.
+SigmaOS-SigmaOS-calculator provides Expression calculator with history for the SigmaOS operating system. It demonstrates the subsystem and integration within the SigmaOS ecosystem, following the principles of clear abstraction and deterministic initialization.
 
 ## Principles
 - Single Responsibility
@@ -20,10 +20,10 @@ SigmaOS-SigmaOS-calculator follows a SigmaOS-calculator pattern:
 
 ## API
 The component provides the following public APIs:
-- `core::manage(SigmaOS-calculator)` - Manage a SigmaOS-calculator by given configuration
-- `core::register(SigmaOS-calculator)` - Register a SigmaOS-calculator by given name
-- `core::status::SigmaOS-calculator()` - Get SigmaOS-calculator status and SigmaOS-calculator availability
-- `core::track::SigmaOS-calculator()` - Track SigmaOS-calculator management and SigmaOS-calculator tracking
+-  - Manage a SigmaOS-calculator by given configuration
+-  - Register a SigmaOS-calculator by given name
+-  - Get SigmaOS-calculator status and SigmaOS-calculator availability
+-  - Track SigmaOS-calculator management and SigmaOS-calculator tracking
 - Error types for SigmaOS-calculator failure scenarios or unsupported SigmaOS-calculator types
 
 ## Test Structure (Arrange-Act-ASSERT)
@@ -33,24 +33,10 @@ All tests follow the AAA pattern:
 3. **Assert**: Verify the expected SigmaOS-calculator results
 
 Example:
-```rust
-#[test]
-fn test_SigmaOS-calculator_aaa() {
-    // Arrange
-    let SigmaOS-calculator = SigmaOS-calculator::new("my-SigmaOS-calculator");
-    
-    // Act
-    let result = core::manage(SigmaOS-calculator);
-    
-    // Assert
-    assert!(result.is_ok());
-    let managed = result.unwrap();
-    assert!(managed.is_managed());
-}
-```
+
 
 ## Development
-- Follows Rust best practices with `#![forbid(unsafe_code)]`
+- Follows Rust best practices with 
 - SigmaOS-calculator initialization is best-effort; gracefully degrades on unsupported configurations
 - Comprehensive error types for all SigmaOS-calculator failure scenarios
 - Unit tests provided for SigmaOS-calculator management and configuration
