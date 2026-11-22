@@ -1,18 +1,18 @@
-# SigmaOS-SigmaOS-calculator Component Wiki
+# SigmaOS-calculator Component Wiki
 
 ## Overview
-SigmaOS-SigmaOS-calculator provides Scientific calculator engine for the SigmaOS operating system. It demonstrates the subsystem and integration within the SigmaOS ecosystem, following the principles of clear abstraction and deterministic initialization.
+SigmaOS-calculator provides component for the SigmaOS operating system. It demonstrates the subsystem and integration within the SigmaOS ecosystem, following the principles of clear abstraction and deterministic initialization.
 
 ## Principles
-- Single Responsibility
-- SigmaOS-calculator Abstraction
-- Fail-Fast on SigmaOS-calculator Initialization Errors
-- Deterministic SigmaOS-calculator Setup
-- Clear Abstraction Over SigmaOS-calculator APIs
-- Composition over Inheritance for SigmaOS-calculator extensions
+- **Single Responsibility**: Each component has a single well-defined purpose
+- **SigmaOS-calculator Abstraction**: Clear abstraction over the component's APIs and functionality
+- **Fail-Fast on SigmaOS-calculator Initialization Errors**: Fail-fast principle for initialization errors
+- **Deterministic SigmaOS-calculator Setup**: Deterministic initialization and configuration
+- **Clear Abstraction Over SigmaOS-calculator APIs**: Well-defined, clear APIs
+- **Composition over Inheritance for SigmaOS-calculator extensions**: Use composition patterns for extensions
 
 ## Architecture
-SigmaOS-SigmaOS-calculator follows a SigmaOS-calculator pattern:
+SigmaOS-calculator follows a SigmaOS-calculator pattern:
 - **SigmaOS-calculator Core**: Provides SigmaOS-calculator support, SigmaOS-calculator management, and SigmaOS-calculator tracking
 - **Management**: Supports SigmaOS-calculator management, SigmaOS-calculator configuration, and SigmaOS-calculator lifecycle
 - **Tracking**: Supports SigmaOS-calculator status, SigmaOS-calculator tracking, and SigmaOS-calculator lifecycle
@@ -20,10 +20,10 @@ SigmaOS-SigmaOS-calculator follows a SigmaOS-calculator pattern:
 
 ## API
 The component provides the following public APIs:
--  - Manage a SigmaOS-calculator by given configuration
--  - Register a SigmaOS-calculator by given name
--  - Get SigmaOS-calculator status and SigmaOS-calculator availability
--  - Track SigmaOS-calculator management and SigmaOS-calculator tracking
+- Manage a SigmaOS-calculator by given configuration
+- Register a SigmaOS-calculator by given name
+- Get SigmaOS-calculator status and SigmaOS-calculator availability
+- Track SigmaOS-calculator management and SigmaOS-calculator tracking
 - Error types for SigmaOS-calculator failure scenarios or unsupported SigmaOS-calculator types
 
 ## Test Structure (Arrange-Act-ASSERT)
@@ -32,11 +32,8 @@ All tests follow the AAA pattern:
 2. **Act**: Execute the code under test (SigmaOS-calculator init, SigmaOS-calculator management)
 3. **Assert**: Verify the expected SigmaOS-calculator results
 
-Example:
-
-
 ## Development
-- Follows Rust best practices with 
+- Follows best practices with clear abstraction boundaries
 - SigmaOS-calculator initialization is best-effort; gracefully degrades on unsupported configurations
 - Comprehensive error types for all SigmaOS-calculator failure scenarios
 - Unit tests provided for SigmaOS-calculator management and configuration
